@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="enabledText">#ffffff</color>
+    <color name="enabledBackground">#212121</color>
+    <color name="disabledText">#bbbbbb</color>
+    <color name="disabledBackground">#484848</color>
+    <color name="loadingText">#bbbbbb</color>
+    <color name="loadingBackground">#484848</color>
+    <color name="errorText">#aaffffff</color>
+    <color name="errorBackground">#9a0007</color>
+</resources>

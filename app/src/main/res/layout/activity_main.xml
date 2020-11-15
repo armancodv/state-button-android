@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+
+    <com.armanco.state_button.StateButton
+        android:id="@+id/disableButton"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="Click to be disabled"
+        app:iconGravity="textStart"
+        app:cornerRadius="16dp"
+        app:state="enabled" />
+
+    <com.armanco.state_button.StateButton
+        android:id="@+id/loadButton"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="Click to show loading"
+        app:iconGravity="textStart"
+        app:cornerRadius="16dp"
+        app:state="enabled" />
+
+    <com.armanco.state_button.StateButton
+        android:id="@+id/errorButton"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="Click to show error"
+        app:iconGravity="textStart"
+        app:cornerRadius="16dp"
+        app:state="enabled" />
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="state_button">
+        <attr name="enabledTextColor" format="color" />
+        <attr name="disabledTextColor" format="color" />
+        <attr name="loadingTextColor" format="color" />
+        <attr name="errorTextColor" format="color" />
+        <attr name="enabledBackgroundColor" format="color" />
+        <attr name="disabledBackgroundColor" format="color" />
+        <attr name="loadingBackgroundColor" format="color" />
+        <attr name="errorBackgroundColor" format="color" />
+        <attr name="state" format="enum">
+            <enum name="enabled" value="0" />
+            <enum name="disabled" value="1" />
+            <enum name="loading" value="2" />
+            <enum name="error" value="3" />
+        </attr>
+    </declare-styleable>
+</resources>

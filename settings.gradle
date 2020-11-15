@@ -1,0 +1,3 @@
+include ':StateButton'
+include ':app'
+rootProject.name = "State Button Example"
