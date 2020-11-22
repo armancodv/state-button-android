@@ -1,10 +1,16 @@
 # State Button Android
 [![](https://jitpack.io/v/armancodv/state-button-android.svg)](https://jitpack.io/#armancodv/state-button-android)
 
-state-button-android.svg
-The state button is an android ui library based on material ui.
+The state button is an android ui library based on Material UI.
 
-![](doc/state_button.gif)
+There are 4 states:
+- enabled
+- disabled
+- loading
+- error
+
+<img src="./doc/state_button.gif" width="300">
+
 ## Installation
 Add it in your root `build.gradle` at the end of repositories:
 ```gradle
@@ -18,11 +24,13 @@ Add it in your root `build.gradle` at the end of repositories:
 Add the dependency in app `build.gradle`
 ```gradle
 	dependencies {
-	        implementation 'com.github.armancodv:state-button-android:Tag'
+	        implementation 'com.github.armancodv:state-button-android:v1.0.0'
 	}
 ```
 ## How to use
 It is the example use of the library.
+
+XML:
 ```xml
     <com.armanco.state_button.StateButton
         android:id="@+id/button"
@@ -42,6 +50,11 @@ It is the example use of the library.
         app:errorBackgroundColor="#9a0007"
          />
 ```
+Kotlin:
 ```kotlin
-button?.state = State.DISABLED
+button?.setOnClickListener {
+    button?.state = State.DISABLED
+}
 ```
+For knowing more about attributes and api see below link:
+https://material.io/develop/android/components/buttons
