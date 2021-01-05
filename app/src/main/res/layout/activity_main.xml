@@ -10,30 +10,48 @@
 
 
     <com.armanco.state_button.StateButton
-        android:id="@+id/disableButton"
+        android:id="@+id/autoChangeButton"
         android:layout_width="match_parent"
         android:layout_height="64dp"
-        android:text="Click to be disabled"
+        android:text="Auto Change"
         app:iconGravity="textStart"
         app:cornerRadius="16dp"
         app:state="enabled" />
 
     <com.armanco.state_button.StateButton
-        android:id="@+id/loadButton"
+        android:id="@+id/enabledButton"
         android:layout_width="match_parent"
         android:layout_height="64dp"
-        android:text="Click to show loading"
+        android:text="Enabled"
         app:iconGravity="textStart"
         app:cornerRadius="16dp"
         app:state="enabled" />
+
+    <com.armanco.state_button.StateButton
+        android:id="@+id/disabledButton"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="Disabled"
+        app:iconGravity="textStart"
+        app:cornerRadius="16dp"
+        app:state="disabled" />
+
+    <com.armanco.state_button.StateButton
+        android:id="@+id/loadingButton"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="Loading"
+        app:iconGravity="textStart"
+        app:cornerRadius="16dp"
+        app:state="loading" />
 
     <com.armanco.state_button.StateButton
         android:id="@+id/errorButton"
         android:layout_width="match_parent"
         android:layout_height="64dp"
-        android:text="Click to show error"
+        android:text="Error"
         app:iconGravity="textStart"
         app:cornerRadius="16dp"
-        app:state="enabled" />
+        app:state="error" />
 
 </LinearLayout>

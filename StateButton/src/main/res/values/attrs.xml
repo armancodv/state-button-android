@@ -9,6 +9,7 @@
         <attr name="disabledBackgroundColor" format="color" />
         <attr name="loadingBackgroundColor" format="color" />
         <attr name="errorBackgroundColor" format="color" />
+        <attr name="animationDuration" format="integer" />
         <attr name="state" format="enum">
             <enum name="enabled" value="0" />
             <enum name="disabled" value="1" />

@@ -48,6 +48,7 @@ XML:
         app:loadingBackgroundColor="#484848"
         app:errorTextColor="#aaffffff"
         app:errorBackgroundColor="#9a0007"
+        app:animationDuration="600"
          />
 ```
 Kotlin:
