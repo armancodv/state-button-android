@@ -24,7 +24,7 @@ Add it in your root `build.gradle` at the end of repositories:
 Add the dependency in app `build.gradle`
 ```gradle
 	dependencies {
-	        implementation 'com.github.armancodv:state-button-android:v1.0.0'
+	        implementation 'com.github.armancodv:state-button-android:v1.0.1'
 	}
 ```
 ## How to use
